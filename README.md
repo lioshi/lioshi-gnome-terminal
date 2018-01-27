@@ -4,6 +4,8 @@ A little script to add [SMYCK palette](http://color.smyck.org/) in GNOME Termina
 
 WARNING: this script replaces default style, but reverting changes is possible of course.
 
+![smyck-sample](https://i.imgur.com/vnlIbYG.png)
+
 # Requirements
 
 Be sure that you have *dconf* installed before anything.
@@ -14,3 +16,6 @@ Be sure that you have *dconf* installed before anything.
 
 # Installation
 
+In user terminal:
+
+`wget -qO- https://raw.githubusercontent.com/DarthWound/smyck-gnome-terminal/master/smyck-terminal.sh  | sh`
