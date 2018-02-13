@@ -6,6 +6,8 @@ WARNING: this script replaces default style, but reverting changes is possible o
 
 ![smyck-sample](https://i.imgur.com/vnlIbYG.png)
 
+[screenshot](https://i.imgur.com/YXjYEiA.png)
+
 # Requirements
 
 Be sure that you have *dconf* installed before anything.
