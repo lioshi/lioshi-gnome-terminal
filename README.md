@@ -16,6 +16,8 @@ Be sure that you have *dconf* installed before anything.
 - Ubuntu/Debian: `su -c 'apt install dconf-cli'`
 - Arch: `su -c 'pacman -S dconf'`
 
+Some distributions provide a default profile with an empty name, or this script needs a profile named "Default". If that's the case on your system, then you have to create a custom profile named "Default" yourself _(in terminal settings)_.
+
 # Installation
 
 In user terminal:
