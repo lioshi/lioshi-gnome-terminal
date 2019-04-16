@@ -5,7 +5,7 @@ trpr=$(dconf read /org/gnome/terminal/legacy/profiles:/default | tr -d \')
 dconf write /org/gnome/terminal/legacy/profiles:/:$trpr/use-theme-colors "false"
 dconf write /org/gnome/terminal/legacy/profiles:/:$trpr/bold-color-same-as-fg "false"
 dconf write /org/gnome/terminal/legacy/profiles:/:$trpr/bold-color "'rgb(176,176,176)'"
-# dconf write /org/gnome/terminal/legacy/profiles:/:$trpr/use-system-font "false"
+dconf write /org/gnome/terminal/legacy/profiles:/:$trpr/use-system-font "false"
 dconf write /org/gnome/terminal/legacy/profiles:/:$trpr/font "Hack 12"
 dconf write /org/gnome/terminal/legacy/profiles:/:$trpr/use-theme-transparency "true"
 dconf write /org/gnome/terminal/legacy/profiles:/:$trpr/foreground-color "'rgb(176,176,176)'"
