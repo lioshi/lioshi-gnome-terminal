@@ -4,7 +4,7 @@ A little script to add [lioshi palette](https://github.com/lioshi/vscode-lioshi-
 
 WARNING: this script replaces default style, but reverting changes is possible of course.
 
-![](https://raw.githubusercontent.com/lioshi/lioshi-gnome-terminal/master/colors1.png)
+![](https://raw.githubusercontent.com/lioshi/lioshi-gnome-terminal/master/colors2.png)
 
 
 

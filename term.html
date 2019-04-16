@@ -3,10 +3,10 @@ table {
     width: 100%;
 }
 #palette table {
-    height: 20%;
+    height: 10%;
 }
 #list table {
-    height: 80%;
+    height: 90%;
 }
 td {
     text-align: center;
@@ -29,8 +29,8 @@ body {
             <td style="background-color:#BE94BB"></td>
             <td style="background-color:#5D968D"></td>
             <td style="background-color:#F5F8F6"></td>
-        </tr>
-        <tr>
+        <!-- </tr>
+        <tr> -->
             <td style="background-color:#565656"></td>
             <td style="background-color:#df9f9f"></td>
             <td style="background-color:#cfd49d"></td>
@@ -70,7 +70,7 @@ for(cb in colors){
         if(colors[cb]==colors[cf]){
             html += "<td></td>"
         } else {
-            html += "<td style='background-color:"+colors[cb]+";color:"+colors[cf]+"' title='"+rgb2hex(colors[cb])+" - "+rgb2hex(colors[cf])+"'>Text</td>"
+            html += "<td style='background-color:"+colors[cf]+";color:"+colors[cb]+"' title='bg: "+rgb2hex(colors[cb])+" - fg: "+rgb2hex(colors[cf])+"'>Text</td>"
         }
     }
     html += "</tr>"
