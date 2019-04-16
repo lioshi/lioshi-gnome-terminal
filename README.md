@@ -1,12 +1,12 @@
 # About
 
-A little script to add [SMYCK palette](http://color.smyck.org/) in GNOME Terminal without any hassle. This color scheme is easy on the eyes while remaining readable and warm, doesn't matter if it's during daytime or at night, and allows you to focus on work.
+A little script to add [lioshi palette](https://github.com/lioshi/vscode-lioshi-theme) in GNOME Terminal without any hassle. 
 
 WARNING: this script replaces default style, but reverting changes is possible of course.
 
-![smyck-sample](https://i.imgur.com/vnlIbYG.png)
+![](https://raw.githubusercontent.com/lioshi/lioshi-gnome-terminal/master/lioshi-term-colors.jpg)
 
---> [screenshot](https://i.imgur.com/YXjYEiA.png)
+
 
 # Requirements
 
@@ -22,4 +22,4 @@ Some distributions provide a default profile with an empty name, or this script 
 
 In user terminal:
 
-`wget -qO- https://raw.githubusercontent.com/DarthWound/smyck-gnome-terminal/master/smyck-terminal.sh  | sh`
+`wget -qO- https://raw.githubusercontent.com/lioshi/lioshi-gnome-terminal/master/lioshi-terminal.sh  | sh`
