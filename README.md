@@ -22,5 +22,6 @@ Some distributions provide a default profile with an empty name, or this script 
 
 In user terminal:
 
-(optional) `sudo apt install fonts-hack-ttf`
+(optional) `sudo apt install fonts-hack-ttf` 
+
 `wget -qO- https://raw.githubusercontent.com/lioshi/lioshi-gnome-terminal/master/lioshi-terminal.sh  | sh`
